@@ -46,8 +46,8 @@ const stringB = 'algorithm Anagrams';
 // Solution 1
 //
 function anagrams(stringA, stringB) {
-  resultA = cleanString(stringA);
-  resultB = cleanString(stringB);
+  let resultA = cleanString(stringA);
+  let resultB = cleanString(stringB);
 
   console.log(resultA === resultB);
 }
